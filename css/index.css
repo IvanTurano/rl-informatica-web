@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Lato';
+}
+
+/*----------------Header-----------------*/
+
+header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 10%;
+}
+
+.icono {
+    font-size: 1.5em;
+    text-decoration:none;
+    font-weight: 900;
+    color: #000000;
+    display: inline-block;    
+}
+
+
+.nav-ul {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: color ease .2s;
+}
+
+.nav-ul li{
+    display: inline-block;
+    padding: 1em 2em;
+}
+
+.nav-ul li a:hover{
+    color:#00B4D8;
+}
+
+/*----------------presentacion----------------*/
+
+.container-present {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+    padding: 2em;
+    height: 50em;
+}
+
+.container-present img {
+    width: 35%;
+    float: right;
+    margin: auto;
+}
+
+
+.present-contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    width: 50%;
+    
+}
+
+.present-contenido img{
+    width: 43%;
+    padding-bottom: 3em;
+}
+
+span {
+    color: #0077B6 ;
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
+.present-contenido h1 {
+    font-size: 2em;
+    padding-bottom: .4em;
+}
+
+.present-contenido p {
+    font-size: 1.1em;
+}
+
+.present-contenido a {
+    padding: .9em;
+    margin-top: 1em;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    background:linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
+    border-radius: 3em;
+    transition: transform ease .8s;
+    transition: box-shadow ease .2s;
+}
+
+.present-contenido a:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
+
+/*----------Cartas----------*/
+
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 12% 10%;
+    gap: 32px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #F8F9FA;
+    margin: 1em;
+    padding: 1em;
+    height: 28em;
+    width: 25em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+    transition: box-shadow ease .5s;
+    transition: background ease .5s;
+    transition: transform ease .5s;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,.4);
+    background:linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
+    transform: translateY(-3%)
+}
+
+.card img {
+    width: 9vh;
+    padding: 2em 0;
+}
+
+.contenido h3 {
+    padding-bottom: 1em;
+    font-size: 1.7em;
+}
+
+.contenido p {
+    font-size: 1.2em;
+}
+
+/*---------------SECCION EMPRESAS----------------*/
+
+.container-empresas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    height: 105vh;
+}
+
+.container-empresas img {
+    float: right;
+    width: 35%;
+    padding: 1em;
+    object-fit: contain;
+}
+
+.empresas-contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+.empresas-contenido h2 {
+    font-size: 2.5em;
+    padding: .1em;
+}
+
+.empresas-contenido p {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+
+.empresas-contenido a {
+    display: inline-block;
+    background-color: #fff;
+    padding: .5em;
+    margin: .8em;
+    border-left: 2px solid #00B4D8;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.2);
+}
+
+
+
+
+/*--------------- SECCION PARTICULAR -----------------*/
+
+
+.container-individual {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    height: 100vh;
+}
+
+.container-individual img {
+    width: 50%;
+}
+
+.individual-contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.individual-contenido h2 {
+    font-size: 2em;
+    padding: .4em;
+}
+
+.individual-contenido p {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+.container-botones2 a {
+    display: inline-block;
+    background-color: #fff;
+    padding: .5em;
+    margin: .8em;
+    border-left: 2px solid #00B4D8;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+}
+
+
+/*-----------------EXPERIENCIA-----------------*/
+
+
+.container-experiencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background:linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #38809d8d, #3aabdf84, #1984bd97), url(../img/img4.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 5em;
+}
+
+.content h2 {
+    font-size: 2.6em;
+    text-shadow: 2px 2px 10px rgba(0,0,0,1);
+}
+
+.content h3{
+    font-size: 1.4em;
+    text-shadow: 2px 2px 10px rgba(0,0,0,1);
+}
+
+
+/*------------Zonas--------------*/
+
+.container-zonas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    height: 70em;
+    background-color: #eeeeee;
+    
+}
+
+
+.card-zonas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #F8F9FA;
+    margin: 1em 3em;
+    padding: 1em;
+    height: 40em;
+    width: 40em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+    transition: box-shadow ease .5s;
+    transition: background ease .5s;
+    transition: transform ease .5s;
+    cursor: pointer;
+}
+
+.card-zonas:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,.4);
+    background:linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
+    transform: translateY(-3%)
+}
+
+.card-zonas img {
+    width: 22vh;
+    padding: 2em 0;
+}
+.card-sucursales h2 {
+    padding: .2em;
+    font-size: 2.6em;
+}
+
+.card-sucursales p {
+    padding: 1em;
+    font-size: 1.6em;
+}
+
+.card-zonas-servicio h2{
+    padding: .2em;
+    font-size: 2.6em;
+}
+
+.card-zonas-servicio p {
+    padding: 1em;
+    font-size: 1.6em;
+}
+
+
+
+
+/*------------Contacto-----------------*/
+
+
+.container-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #179ed49a, #3aabdf84, #1984bd97), url(../img/img4.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 3em;
+    height: 70vh;
+}
+
+.container-contacto h2 {
+    color: #fff;
+    text-shadow: 1px 1px 10px rgba(0,0,0,1);
+    font-weight: 900;
+    font-size: 3em;
+    padding-bottom: .2em;
+}
+
+.container-contacto p {
+    color: #fff;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 10px rgba(0,0,0,.8);
+    padding-bottom: 1em;
+}
+
+.container-contacto a {
+    padding: .9em;
+    margin-top: 1em;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    background:linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    border-radius: 3em;
+    transition: transform ease 1s;
+}
+
+.container-contacto a:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 6px rgba(0,0,0,.3);
+}
+
+/*------------FOOTER------------*/
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    background-color:transparent;
+    padding: 1.2em;
+}
+
+.footer-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+
+
+
+@media screen and (max-width: 880px) {
+    
+    .container-present{
+        flex-direction: column;
+    }
+
+    .container-empresas{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+
+    .container-individual{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container-individual img {
+        display: none;
+    }
+
+    .card-zonas{
+        height: 35%;
+        width: 100%;
+    }
+
+    .card-sucursales h2 {
+        padding: .2em;
+        font-size: 100%;
+    }
+    
+    .card-sucursales p {
+        padding: 1em;
+        font-size: 1.2em;
+    }
+    
+    .card-zonas-servicio h2{
+        padding: .2em;
+        font-size: 100%;
+    }
+    
+    .card-zonas-servicio p {
+        padding: 1em;
+        font-size: 1.2em;
+    }
+
+    .card-zonas img {
+        width: 16vh;
+        padding: 1.3em 0;
+    }
+
+   
+    
+}
+
+@media screen and (max-width:720px) {
+    header {
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    .container-experiencia {
+        flex-direction: column;
+    }
+
+    .container-present {
+        padding: 0;
+    }
+
+    .container-empresas img{
+        display: none;
+    }
+
+    .container-empresas {
+        padding: 0;
+    }
+
+    .container-individual {
+        padding: 0;
+    }
+
+    .container-individual img{
+        display: none;
+    }
+
+    .present-contenido{
+        padding: 1px;
+    }
+
+    .container-present img{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:510px) {
+    
+    header {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li a{
+        padding: 1em;
+    }
+
+    .card{
+        height: 30em;
+    }
+
+    .container-roberto img {
+        width: 150%;
+    }
+
+    .container-cards{
+        padding: 30% 0;
+    }
+
+    .container-empresas{
+        height: 130%;
+    }
+    .container-individual{
+        height: 148%;
+    }
+
+    .container-zonas{
+        height: 95em;
+        padding: 0;
+    }
+
+}

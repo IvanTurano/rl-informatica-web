@@ -443,7 +443,6 @@ span {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    
 
     .container-individual{
         flex-direction: column;
@@ -544,10 +543,6 @@ span {
 
     .card{
         height: 30em;
-    }
-
-    .container-roberto img {
-        width: 150%;
     }
 
     .container-cards{

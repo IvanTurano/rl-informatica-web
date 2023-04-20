@@ -8,8 +8,7 @@
     <meta name="descripcion" content="Somos una empresa dedicada a ofrecer nuestros diferentes servicios en el ambito informatico. Contamos con tecnicos especializados en el area y capacitados para asesorar a clientes particulares, pymes, empresas y centros educativos. Contamos con mas de 10 años de experiencia en el rubro, adaptandonos a la nuevas tecnologias, para ofrecerlas a nuestros clientes.">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
-    <script src="./js/index.js"></script>
-    <link rel="shortcut icon" href="./img/iconoRL.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <title>RL Informatica</title>
 </head>
 <body>
@@ -172,5 +171,21 @@
             </div>
         </div>
     </footer>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-analytics.js";
+
+        const firebaseConfig = {
+          apiKey: "AIzaSyDt_sVJKZtf57dZ0TPrnyvz0Rwp0mOT0Hw",
+          authDomain: "rl-prueba12boca.firebaseapp.com",
+          projectId: "rl-prueba12boca",
+          storageBucket: "rl-prueba12boca.appspot.com",
+          messagingSenderId: "231130830213",
+          appId: "1:231130830213:web:0434515336d3a826b0e0ec",
+          measurementId: "G-Y7KDGLZCVV"
+        };
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>

@@ -4,15 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 body {
     font-family: 'Lato';
 }
 
-
-/*--------------HEADER-------------------*/
 
 header {
     background: transparent;
@@ -25,10 +23,10 @@ header {
 
 .icono {
     font-size: 1.5em;
-    text-decoration:none;
+    text-decoration: none;
     font-weight: 900;
     color: #000000;
-    display: flex;    
+    display: flex;
 }
 
 
@@ -44,58 +42,54 @@ li a {
     font-size: 1.1em;
 }
 
-.nav-ul li{
+.nav-ul li {
     display: inline-block;
     padding: 1em 2em;
 }
 
-.nav-ul li a:hover{
-    color:#00B4D8;
+.nav-ul li a:hover {
+    color: #00B4D8;
     border-left: #00B4D8;
 }
 
-/*--------------CABECERA----------------*/
 
-.container-encabezado{
+.container-encabezado {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     min-height: 13em;
-    background:linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #38809d8d, #3aabdf84, #1984bd97), url(../img/img4.png);
-    background-size:auto;
+    background: linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #38809d8d, #3aabdf84, #1984bd97), url(../img/img4.png);
+    background-size: auto;
     background-position: center;
     background-attachment: fixed;
     color: #FFFFFF;
-    
+
 }
 
-.container-encabezado h1{
+.container-encabezado h1 {
     padding-bottom: .2em;
     font-weight: 900;
     color: #ffffff;
     font-size: 4em;
-    text-shadow: 3px 3px 5px rgba(0,0,0,.8);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, .8);
 }
 
 .container-encabezado p {
     font-size: 1.4em;
     padding-bottom: .4em;
-    text-shadow: 3px 3px 5px rgba(0,0,0,.8);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, .8);
 }
 
 
-
-/*------------------CARTAS-------------------*/
-
-.container-cards{
+.container-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 50em;
-    
+
 }
 
 .card {
@@ -108,7 +102,7 @@ li a {
     height: 27em;
     text-align: center;
     border-radius: 1em;
-    box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
     width: 24em;
     transition: box-shadow ease 1s;
     transition: background ease 1s;
@@ -116,28 +110,28 @@ li a {
     cursor: pointer;
 }
 
-.card img{
+.card img {
     width: 5em;
     padding-bottom: 2em;
     padding-top: 1em;
 }
 
 
-.contenido h2{
-    color: #0077B6 ;
+.contenido h2 {
+    color: #0077B6;
     font-weight: 900;
     padding-bottom: 1em;
     font-size: 1.8em;
 }
 
-.contenido p{
+.contenido p {
     font-size: 1.2em;
     padding-bottom: 1.2em;
 }
 
 .contenido a {
     display: inline-block;
-    color:#000000;
+    color: #000000;
     background-color: #eeeeee;
     text-decoration: none;
     border-radius: 6em;
@@ -146,27 +140,25 @@ li a {
 }
 
 .contenido a:hover {
-    box-shadow: 3px 3px 10px rgba(0,0,0,1.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 1.2);
 }
 
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,.4);
-    background:linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .4);
+    background: linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
     transform: translateY(-1%);
 }
 
 .num {
     display: inline-block;
-    color:#000000;
+    color: #000000;
     background-color: #eeeeee;
     text-decoration: none;
     border-radius: 6em;
     padding: 1em;
 }
 
-/*--------------FOOTER------------*/
-
-.container-footer{
+.container-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -178,17 +170,17 @@ li a {
 }
 
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1300px) {
 
     header {
         display: flex;
         flex-direction: column;
         padding: 1.3em;
     }
-    
-    .icono{
+
+    .icono {
         padding: 1em;
-        font-weight:900;
+        font-weight: 900;
         font-size: 2em;
     }
 
@@ -198,7 +190,7 @@ li a {
         padding: 2em
     }
 
-    .container-cards{
+    .container-cards {
         height: 100em;
     }
 }

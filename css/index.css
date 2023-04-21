@@ -4,14 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 body {
     font-family: 'Lato';
 }
 
-/*----------------Header-----------------*/
 
 header {
     background-color: transparent;
@@ -23,10 +22,10 @@ header {
 
 .icono {
     font-size: 1.5em;
-    text-decoration:none;
+    text-decoration: none;
     font-weight: 900;
     color: #000000;
-    display: inline-block;    
+    display: inline-block;
 }
 
 
@@ -43,16 +42,14 @@ li a {
     transition: color ease .2s;
 }
 
-.nav-ul li{
+.nav-ul li {
     display: inline-block;
     padding: 1em 2em;
 }
 
-.nav-ul li a:hover{
-    color:#00B4D8;
+.nav-ul li a:hover {
+    color: #00B4D8;
 }
-
-/*----------------presentacion----------------*/
 
 .container-present {
     display: flex;
@@ -70,23 +67,23 @@ li a {
 }
 
 
-.present-contenido{
+.present-contenido {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 3em;
     width: 50%;
-    
+
 }
 
-.present-contenido img{
+.present-contenido img {
     width: 43%;
     padding-bottom: 3em;
 }
 
 span {
-    color: #0077B6 ;
+    color: #0077B6;
     font-size: 1.1em;
     font-weight: 900;
 }
@@ -107,7 +104,7 @@ span {
     text-decoration: none;
     color: #fff;
     font-size: 1.2em;
-    background:linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
+    background: linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
     border-radius: 3em;
     transition: transform ease .8s;
     transition: box-shadow ease .2s;
@@ -115,13 +112,10 @@ span {
 
 .present-contenido a:hover {
     transform: scale(1.1);
-    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
 }
 
-/*----------Cartas----------*/
-
-
-.container-cards{
+.container-cards {
     display: flex;
     justify-content: center;
     place-items: center;
@@ -129,7 +123,7 @@ span {
     align-items: center;
     padding: 12% 10%;
     gap: 32px;
-    
+
 }
 
 .card {
@@ -144,16 +138,16 @@ span {
     width: 25em;
     text-align: center;
     border-radius: 1em;
-    box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
     transition: box-shadow ease .5s;
     transition: background ease .5s;
     transition: transform ease .5s;
     cursor: pointer;
 }
 
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,.4);
-    background:linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .4);
+    background: linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
     transform: translateY(-3%)
 }
 
@@ -171,7 +165,6 @@ span {
     font-size: 1.2em;
 }
 
-/*---------------SECCION EMPRESAS----------------*/
 
 .container-empresas {
     display: flex;
@@ -214,13 +207,8 @@ span {
     padding: .5em;
     margin: .8em;
     border-left: 2px solid #00B4D8;
-    box-shadow: 1px 1px 4px rgba(0,0,0,.2);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
 }
-
-
-
-
-/*--------------- SECCION PARTICULAR -----------------*/
 
 
 .container-individual {
@@ -260,20 +248,17 @@ span {
     padding: .5em;
     margin: .8em;
     border-left: 2px solid #00B4D8;
-    box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
 }
 
 
-/*-----------------EXPERIENCIA-----------------*/
-
-
-.container-experiencia{
+.container-experiencia {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 2em;
-    background:linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #38809d8d, #3aabdf84, #1984bd97), url(../img/img4.png);
+    background: linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #38809d8d, #3aabdf84, #1984bd97), url(../img/img4.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -290,16 +275,15 @@ span {
 
 .content h2 {
     font-size: 2.6em;
-    text-shadow: 2px 2px 10px rgba(0,0,0,1);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
 }
 
-.content h3{
+.content h3 {
     font-size: 1.4em;
-    text-shadow: 2px 2px 10px rgba(0,0,0,1);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
 }
 
 
-/*------------Zonas--------------*/
 
 .container-zonas {
     display: flex;
@@ -310,7 +294,7 @@ span {
     padding: 2em;
     height: 70em;
     background-color: #eeeeee;
-    
+
 }
 
 
@@ -325,16 +309,16 @@ span {
     width: 40%;
     text-align: center;
     border-radius: 1em;
-    box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
     transition: box-shadow ease .5s;
     transition: background ease .5s;
     transition: transform ease .5s;
     cursor: pointer;
 }
 
-.card-zonas:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,.4);
-    background:linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
+.card-zonas:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .4);
+    background: linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
     transform: translateY(-3%)
 }
 
@@ -342,6 +326,7 @@ span {
     width: 20%;
     padding: 2em 0;
 }
+
 .card-sucursales h2 {
     padding: .2em;
     font-size: 2.6em;
@@ -352,7 +337,7 @@ span {
     font-size: 1.6em;
 }
 
-.card-zonas-servicio h2{
+.card-zonas-servicio h2 {
     padding: .2em;
     font-size: 2.6em;
 }
@@ -362,18 +347,12 @@ span {
     font-size: 1.6em;
 }
 
-
-
-
-/*------------Contacto-----------------*/
-
-
 .container-contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #179ed49a, #3aabdf84, #1984bd97), url(../img/img4.png);
+    background: linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #179ed49a, #3aabdf84, #1984bd97), url(../img/img4.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -383,7 +362,7 @@ span {
 
 .container-contacto h2 {
     color: #fff;
-    text-shadow: 1px 1px 10px rgba(0,0,0,1);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
     font-weight: 900;
     font-size: 3em;
     padding-bottom: .2em;
@@ -392,7 +371,7 @@ span {
 .container-contacto p {
     color: #fff;
     font-size: 1.2em;
-    text-shadow: 1px 1px 10px rgba(0,0,0,.8);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, .8);
     padding-bottom: 1em;
 }
 
@@ -403,23 +382,21 @@ span {
     text-decoration: none;
     color: #fff;
     font-size: 1.2em;
-    background:linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
-    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    background: linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
     border-radius: 3em;
     transition: transform ease 1s;
 }
 
 .container-contacto a:hover {
     transform: scale(1.1);
-    box-shadow: 3px 3px 6px rgba(0,0,0,.3);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
 }
 
-/*------------FOOTER------------*/
-
-.container-footer{
+.container-footer {
     display: flex;
     flex-direction: row;
-    background-color:transparent;
+    background-color: transparent;
     padding: 1.2em;
 }
 
@@ -434,17 +411,17 @@ span {
 
 
 @media screen and (max-width: 880px) {
-    
-    .container-present{
+
+    .container-present {
         flex-direction: column;
     }
 
-    .container-empresas{
+    .container-empresas {
         flex-direction: column;
         flex-wrap: wrap;
     }
 
-    .container-individual{
+    .container-individual {
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -453,7 +430,7 @@ span {
         display: none;
     }
 
-    .card-zonas{
+    .card-zonas {
         height: 35%;
         width: 100%;
     }
@@ -462,17 +439,17 @@ span {
         padding: .2em;
         font-size: 100%;
     }
-    
+
     .card-sucursales p {
         padding: 1em;
         font-size: 1.2em;
     }
-    
-    .card-zonas-servicio h2{
+
+    .card-zonas-servicio h2 {
         padding: .2em;
         font-size: 100%;
     }
-    
+
     .card-zonas-servicio p {
         padding: 1em;
         font-size: 1.2em;
@@ -483,8 +460,8 @@ span {
         padding: 1.3em 0;
     }
 
-   
-    
+
+
 }
 
 @media screen and (max-width:720px) {
@@ -501,7 +478,7 @@ span {
         padding: 0;
     }
 
-    .container-empresas img{
+    .container-empresas img {
         display: none;
     }
 
@@ -513,22 +490,22 @@ span {
         padding: 0;
     }
 
-    .container-individual img{
+    .container-individual img {
         display: none;
     }
 
-    .present-contenido{
+    .present-contenido {
         padding: 1px;
     }
 
-    .container-present img{
+    .container-present img {
         display: none;
     }
 
 }
 
 @media screen and (max-width:510px) {
-    
+
     header {
         flex-direction: row;
         flex-wrap: wrap;
@@ -537,26 +514,27 @@ span {
         justify-content: center;
     }
 
-    li a{
+    li a {
         padding: 1em;
     }
 
-    .card{
+    .card {
         height: 30em;
     }
 
-    .container-cards{
+    .container-cards {
         padding: 30% 0;
     }
 
-    .container-empresas{
+    .container-empresas {
         height: 130%;
     }
-    .container-individual{
+
+    .container-individual {
         height: 148%;
     }
 
-    .container-zonas{
+    .container-zonas {
         height: 95em;
         padding: 0;
     }

@@ -152,7 +152,7 @@ span {
 }
 
 .card img {
-    width: 9vh;
+    width: 20%;
     padding: 2em 0;
 }
 
@@ -456,7 +456,6 @@ span {
     }
 
     .card-zonas img {
-        width: 16vh;
         padding: 1.3em 0;
     }
 

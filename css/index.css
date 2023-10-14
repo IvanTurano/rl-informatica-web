@@ -4,13 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato','sans-serif';
 
 }
 
-body {
-    font-family: 'Lato';
+html {
+    scroll-behavior: smooth;
 }
-
 
 header {
     background-color: transparent;
@@ -91,13 +91,14 @@ span {
 .present-contenido h1 {
     font-size: 2em;
     padding-bottom: .4em;
+    text-align: center;
 }
 
 .present-contenido p {
     font-size: 1.1em;
 }
 
-.present-contenido a {
+.btn {
     padding: .9em;
     margin-top: 1em;
     display: inline-block;
@@ -106,12 +107,11 @@ span {
     font-size: 1.2em;
     background: linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
     border-radius: 3em;
-    transition: transform ease .8s;
-    transition: box-shadow ease .2s;
+    transition: all ease-in .3s;
 }
 
-.present-contenido a:hover {
-    transform: scale(1.1);
+.btn:hover {
+    transform: scale(1.05);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
 }
 
@@ -193,11 +193,13 @@ span {
 .empresas-contenido h2 {
     font-size: 2.5em;
     padding: .1em;
+    text-align: center;
 }
 
 .empresas-contenido p {
     font-size: 1.2em;
     padding-bottom: 1em;
+    text-align: center;
 }
 
 
@@ -240,6 +242,7 @@ span {
 .individual-contenido p {
     font-size: 1.2em;
     padding-bottom: 1em;
+    text-align: center;
 }
 
 .container-botones2 a {
@@ -258,7 +261,7 @@ span {
     justify-content: center;
     align-items: center;
     padding: 2em;
-    background: linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #38809d8d, #3aabdf84, #1984bd97), url(../img/img4.png);
+    background: linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #38809d8d, #3aabdf84, #1984bd97), url(../img/img4.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -284,6 +287,31 @@ span {
 }
 
 
+.container-logosEmpresas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-logosEmpresas h2 {
+    margin: 3rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logosEmpresas-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logosEmpresas-logos a img {
+    margin: 2rem 6rem;
+}
 
 .container-zonas {
     display: flex;
@@ -291,12 +319,10 @@ span {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 2em;
-    height: 70em;
+    padding: 15em 10em;
     background-color: #eeeeee;
 
 }
-
 
 .card-zonas {
     display: flex;
@@ -347,12 +373,41 @@ span {
     font-size: 1.6em;
 }
 
+.container-maps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-opiniones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+
+}
+
+.container-opiniones h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.container-opiniones img {
+    width: 20%;
+    margin: 1rem;
+}
+
+.btn-opi {
+    margin: 2rem 0;
+}
+
 .container-contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #179ed49a, #3aabdf84, #1984bd97), url(../img/img4.png);
+    background: linear-gradient(to right bottom, #00d9ff8a, #0dafe191, #179ed49a, #3aabdf84, #1984bd97), url(../img/img4.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -366,6 +421,7 @@ span {
     font-weight: 900;
     font-size: 3em;
     padding-bottom: .2em;
+    text-align: center;
 }
 
 .container-contacto p {
@@ -373,24 +429,6 @@ span {
     font-size: 1.2em;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, .8);
     padding-bottom: 1em;
-}
-
-.container-contacto a {
-    padding: .9em;
-    margin-top: 1em;
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.2em;
-    background: linear-gradient(to right bottom, #90e0ef, #6bc6e1, #48acd4, #2592c6, #0077b6);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
-    border-radius: 3em;
-    transition: transform ease 1s;
-}
-
-.container-contacto a:hover {
-    transform: scale(1.1);
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
 }
 
 .container-footer {
@@ -459,7 +497,24 @@ span {
         padding: 1.3em 0;
     }
 
+    
+    .container-logosEmpresas h2 {
+        font-size: 2rem;
+    }
 
+    
+    .logosEmpresas-logos a img {
+        margin: 2rem 6rem;
+        width: 50%;
+    }
+
+    .container-zonas {
+        padding: 8em 0;
+    }
+
+    .content {
+        padding: 4em 3em;
+    }
 
 }
 
@@ -501,6 +556,10 @@ span {
         display: none;
     }
 
+    .container-opiniones img {
+        width: 70%;
+    }
+
 }
 
 @media screen and (max-width:510px) {
@@ -534,8 +593,7 @@ span {
     }
 
     .container-zonas {
-        height: 95em;
-        padding: 0;
+        padding: 8em 0 ;
     }
 
 }
